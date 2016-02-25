@@ -1,0 +1,36 @@
+{
+  "name": "gulp-msdeploy",
+  "version": "0.0.1",
+  "description": "msdeploy plugin for gulp. Inspired by grunt-msdeploy.",
+  "keywords": [
+    "gulpplugin",
+    "msdeploy"
+  ],
+  "author": {
+    "name": "Darren Reid",
+    "email": "darren.j.reid@gmail.com",
+    "url": "https://github.com/layoric"
+  },
+  "repository": "layoric/gulp-msdeploy",
+  "scripts": {
+    "test": "istanbul test ./node_modules/mocha/bin/_mocha --report html -- test/*.js --reporter spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "gulp-util": ">=3.0.0",
+    "lodash": "^4.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodeunit": "0.0.5",
+    "gulp-shell": "^0.5.2",
+    "through2": "^0.6.3",
+    "request": "^2.69.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
