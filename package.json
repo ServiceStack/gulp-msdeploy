@@ -16,14 +16,15 @@
     "test": "gulp"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
     "gulp-util": ">=3.0.0",
     "lodash": "^4.0.0",
-    "through2": "^2.0.0"
+    "through2": "^2.0.0",
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-nodeunit": "0.0.5",
-    "request": "^2.69.0"
+    "gulp-nodeunit": "0.0.5"
   },
   "engines": {
     "node": ">=0.8.0",
