@@ -6,12 +6,12 @@
     "gulpplugin",
     "msdeploy"
   ],
-  "author": {
-    "name": "Darren Reid",
-    "email": "darren.j.reid@gmail.com",
-    "url": "https://github.com/layoric"
-  },
+  "author": "servicestack <team@servicestack.net>",
   "repository": "ServiceStack/gulp-msdeploy",
+  "bugs": {
+    "url": "https://github.com/ServiceStack/gulp-msdeploy/issues"
+  },
+  "main": "index.js",
   "scripts": {
     "test": "gulp"
   },
