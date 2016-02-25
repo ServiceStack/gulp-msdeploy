@@ -7,12 +7,6 @@
  */
 (function () {
     "use strict";
-    var gulp = require('gulp'),
-        util = require('gulp-util'),
-        shell = require('gulp-shell'),
-        request = require('request'),
-        fs = require('fs');
-
     module.exports = function(options) {
         var fullCommand = '';
         for (var key in options){

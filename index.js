@@ -4,7 +4,6 @@
     var gulp = require('gulp'),
         util = require('gulp-util'),
         exec = require('child_process').exec,
-        request = require('request'),
         path = require('path'),
         _ = require('lodash'),
         through = require('through2'),

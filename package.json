@@ -1,6 +1,6 @@
 {
   "name": "gulp-msdeploy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "msdeploy plugin for gulp. Inspired by grunt-msdeploy.",
   "keywords": [
     "gulpplugin",
@@ -19,8 +19,7 @@
     "gulp": "^3.9.1",
     "gulp-util": ">=3.0.0",
     "lodash": "^4.0.0",
-    "through2": "^2.0.0",
-    "request": "^2.69.0"
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
