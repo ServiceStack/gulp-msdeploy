@@ -11,4 +11,4 @@ sandbox
 test/out-fixtures/*
 test/watch-*.txt
 gulp.1
-tests/tests.js.xml
+test/tests.js.xml
