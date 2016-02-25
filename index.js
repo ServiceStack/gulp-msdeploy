@@ -71,8 +71,7 @@
             return exec(fullCommand,{ maxBuffer: 2000*1024}, function (error, stdout, stderr) {
                 util.log(stdout);
                 if (error !== null) {
-                    util.log(stderr);
-                    throw error;
+                    throw new Error(util.colors.red('msdeploy: ' + stderr));
                 }
                 cb();
             });
